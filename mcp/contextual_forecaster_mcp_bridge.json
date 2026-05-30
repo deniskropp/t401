@@ -1,0 +1,18 @@
+{
+  "name": "contextual_forecaster",
+  "description": "Generates short-term numeric or narrative forecasts from local context. Exposed as persistent MCP co-agent node with RTA discoverability and CoherenceMonitorBridge integration.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "context": { "type": "string" },
+      "series": { "type": "array", "items": { "type": "number" } },
+      "horizon": { "type": "integer", "default": 3 }
+    }
+  },
+  "meta": {
+    "lineage": "t404 + gallery e52e848 + gallery-skill-template",
+    "rta_discoverable": true,
+    "valence_aware": true,
+    "coherence_hooks": true
+  }
+}

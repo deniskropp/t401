@@ -1,0 +1,11 @@
+{
+  "node_id": "contextual_forecaster",
+  "node_type": "external_coagent",
+  "discoverable_by_rta": true,
+  "valence_aware": true,
+  "coherence_emission": {
+    "fields": ["valence_delta", "coherence_note"]
+  },
+  "meta_dna_tags": ["gallery", "forecast", "t404"],
+  "recommended_traversal": "ValenceContextDFS"
+}
