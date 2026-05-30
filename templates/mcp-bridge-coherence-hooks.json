@@ -1,0 +1,7 @@
+{
+  "coherence": {
+    "emits": ["valence_delta", "coherence_note"],
+    "supports_recalibration": true,
+    "recommended_traversal": "ValenceContextDFS"
+  }
+}

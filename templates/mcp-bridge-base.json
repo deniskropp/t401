@@ -1,0 +1,11 @@
+{
+  "name": "{{skill_name}}",
+  "description": "{{short_description}}",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "context": { "type": "string", "description": "Textual or structured context" },
+      "series": { "type": "array", "items": { "type": "number" }, "description": "Optional numeric time series" }
+    }
+  }
+}

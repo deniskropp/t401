@@ -1,0 +1,7 @@
+{
+  "valence": {
+    "supports_valence_delta": true,
+    "default_valence_impact": 0.1,
+    "humor_anchor_compatible": false
+  }
+}

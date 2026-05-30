@@ -1,0 +1,9 @@
+{
+  "rta": {
+    "node_type": "external_coagent",
+    "discoverable": true,
+    "valence_aware": true,
+    "coherence_hooks": ["flux", "drift", "valence"],
+    "meta_dna_tags": ["gallery", "coagent", "rta"]
+  }
+}
